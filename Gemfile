@@ -39,7 +39,7 @@ gem 'dm-postgres-adapter'
 gem 'padrino', '0.11.2'
 
 #reCaptcha
-gem "recaptcha"
+gem 'recaptcha', :require => 'recaptcha/rails'
 
 group :development, :test, :ci do
   gem 'cucumber'
