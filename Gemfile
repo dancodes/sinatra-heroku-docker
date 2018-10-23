@@ -38,6 +38,9 @@ gem 'dm-postgres-adapter'
 # Padrino Stable Gem
 gem 'padrino', '0.11.2'
 
+#reCaptcha
+gem 'rack-recaptcha', :require => 'rack/recaptcha'
+
 group :development, :test, :ci do
   gem 'cucumber'
   gem 'capybara'
