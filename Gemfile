@@ -25,6 +25,7 @@ gem 'dm-aggregates'
 gem 'dm-types'
 gem 'dm-core'
 gem 'dm-ar-finders'
+gem 'dm-sqlite-adapter'
 gem 'therubyracer'
 gem 'padrino-sprockets', :require => "padrino/sprockets"
 gem 'uglifier', '2.1.1'
